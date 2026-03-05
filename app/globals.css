@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-slate-900; }
+
+.container-pad { @apply mx-auto max-w-6xl px-5; }
+.section-pad { @apply py-16 md:py-20; }
+
+.card { @apply rounded-2xl bg-white shadow-soft ring-1 ring-slate-200/60; }
+.card-hover { @apply transition hover:shadow-hover hover:ring-brand-300; }
+
+.pill { @apply inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700 ring-1 ring-brand-200; }
+
+.btn { @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold transition; }
+.btn-primary { @apply btn bg-brand-500 text-white hover:bg-brand-600; }
+.btn-ghost { @apply btn bg-white text-slate-900 ring-1 ring-slate-200 hover:bg-slate-50; }
+
+.navlink { @apply text-sm font-medium text-slate-700 hover:text-slate-900; }
+
+.stepNum { @apply text-3xl font-extrabold text-slate-200; }
+
+.faqItem { @apply card card-hover px-5 py-4; }
+.faqQ { @apply flex items-center justify-between gap-4 text-left text-sm font-semibold; }
+.faqA { @apply mt-3 text-sm leading-6 text-slate-600; }
+
+.highlight { @apply ring-2 ring-brand-400; }
