@@ -1,5 +1,8 @@
 module.exports = {
-    siteUrl: 'https://your-domain.com',
-    generateRobotsTxt: true,
-    sitemapSize: 5000,
+    siteUrl: 'https://passive-income-without-effort.vercel.app',
+    generateRobotsTxt: true, // optional, generates robots.txt
+    outDir: './public', // make sure sitemap is generated in public/
+    extraPaths: [
+        '/',
+      ],
 };
