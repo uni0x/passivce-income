@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://your-domain.com
+Host: https://passive-income-without-effort.vercel.app/
 
 # Sitemaps
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://passive-income-without-effort.vercel.app/sitemap.xml
