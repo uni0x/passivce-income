@@ -18,14 +18,16 @@ export default async function Page() {
   return (
     <>
       <Head>
-        <title>Passive Income Source with Zero-Effort: Laptop Hosting</title>
+        <title>Passive Income Without Effort: Laptop Hosting</title>
         <meta name="description" content="Discover practical strategies to earn passive income without working actively. Step-by-step guidance and tips included." />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Get Passive Income Without Work" />
+        <meta property="og:title" content="Passive Income Without Effort" />
         <meta property="og:description" content="Learn proven methods to generate passive income effortlessly." />
+        <meta name="google-site-verification" content="ndDbVKfyEKWfdkXIjSwoclt4DBT8Di-iAqJJv6dxdGw" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://your-domain.com/passive-income-without-work" />
-        <meta property="og:image" content="https://your-domain.com/images/hero.svg" />
+        <meta property="og:url" content="https://passive-income-without-effort.vercel.app/" />
+        <meta property="og:image" content="https://passive-income-without-effort.vercel.app/images/hero.svg" />
+        <link rel="canonical" href="https://passive-income-without-effort.vercel.app/" />
         <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
